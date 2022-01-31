@@ -1,0 +1,48 @@
+body,
+body * {
+  margin: 0;
+  margin: 0;
+  font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
+  font-weight: thin;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.flex-container > div {
+  text-align: center;
+  font-size: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.word {
+  text-decoration: underline;
+}
+
+#tomorrow {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+  .flex-container > div {
+    font-size: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+}
+
+@keyframes FadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
