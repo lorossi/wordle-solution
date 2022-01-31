@@ -27,6 +27,7 @@ body * {
 
 #tomorrow {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 @media screen and (max-width: 850px) {

@@ -32,6 +32,5 @@ document.addEventListener("DOMContentLoaded", () => {
     // set element
     tomorrow_obj.innerHTML = word;
     tomorrow_obj.style.animation = "FadeIn 1s";
-    tomorrow_obj.style.textDecoration = "underline";
   });
 });
