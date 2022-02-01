@@ -23,27 +23,21 @@ body {
   font-size: 4rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-}
-
-.word {
-  text-decoration: underline;
-}
-
-#tomorrow {
   cursor: pointer;
   text-decoration: underline;
+  user-select: none;
 }
 
 @media screen and (max-width: 850px) {
   .flex-container {
-    margin-top: 15vh;
-    height: 85vh;
+    margin-top: 10vh;
+    height: 90vh;
   }
 
   .flex-container > div {
     font-size: 1.5rem;
-    margin-top: 0.75rem;
-    margin-bottom: 0.75rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
   }
 }
 
